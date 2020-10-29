@@ -4,13 +4,14 @@ public class Topics {
 	String name;
 	String description;
 	String id;
-	public Topics(String id,String name,String desc) 
+	public Topics(String id,String name,String description) 
 	{
 		this.id=id;
 		this.name=name;
-		description=desc;
+		this.description=description;
 	}
 	
+	public Topics() {}
 	
 	
 	public String getId() {
